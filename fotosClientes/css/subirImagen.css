@@ -1,0 +1,111 @@
+/* subir.php */
+.header {
+    background: #9eab2f;
+    z-index: 99;
+}
+.header .back {
+    background: #6a7221;
+    color: #000;
+    padding: 10px;
+}
+.container {
+    margin-bottom: -100px;
+}
+.container ul, .container .titulo {
+    text-align: center;
+    position: relative;
+    border: 2px solid #000;
+}
+.container .titulo {
+    border: none;
+    margin-bottom: 20px;
+}
+.container .titulo h1 {
+    font-size: 50px;
+}
+.container .titulo a {
+    text-decoration: none;
+    color: #95a12098;
+}
+.container ul {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.container ul li {
+    list-style: none;
+}
+.container ul li p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container ul li p span {
+    font-size: 13px;
+}
+.container ul li img {
+    height: 200px;
+}
+.container ul li {
+    list-style: none;
+}
+.container ul li p {
+    font-size: 15px;
+    width: 100%;
+}
+footer {
+    position: relative;
+    top: 100px;
+}
+
+/* index.php */
+/* .container_index {
+    height: calc(100vh - 158px);
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.container_index .titulo {
+    border: none;
+    margin-bottom: 100px;
+}
+.container_index .titulo h1 {
+    font-size: 50px;
+}
+.container_index .titulo a {
+    text-decoration: none;
+}
+.container_index form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container_index form input {
+    height: 20px;
+    width: 200px;
+}
+.container_index form textarea {
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 200px;
+    max-width: 200px;
+} */
+
+@media screen and (max-width: 415px) {
+    .container ul li p span {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 495px) {
+    .container ul li p span {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav ul {
+        font-size: 12px;
+    }
+}
